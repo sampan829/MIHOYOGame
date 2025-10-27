@@ -1,0 +1,20 @@
+# 忽略Unity本地缓存和中间文件目录
+Library/
+
+# 忽略日志文件夹
+Logs/
+
+# 忽略C#编译中间对象文件目录
+obj/
+
+# 忽略用户个人编辑器配置文件夹
+UserSettings/
+
+# （可选补充）Unity常见的其他本地临时文件，建议一并忽略
+Temp/
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.unityproj
+*.sln.cache
