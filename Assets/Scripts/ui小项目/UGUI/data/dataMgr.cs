@@ -9,11 +9,13 @@ public class dataMgr
     private static dataMgr instance = new dataMgr();
     public static dataMgr Instance { get { return instance; } }
     public musicData musicdata;
+    public accessMap accessmap;
 
     private dataMgr()
     {
         musicdata = playerPrefsDataMgr.Instance.loaddata(typeof(musicData), "Music") as musicData;
-        if (!musicdata.notFirst)
+        accessmap=playerPrefsDataMgr.Instance.loaddata(typeof(accessMap),"AccessMap") as accessMap;
+        if (musicdata.notFirst==false)
         {
             musicdata.notFirst = true;
             //musicdata.soudVal = 50;
@@ -23,6 +25,16 @@ public class dataMgr
             playerPrefsDataMgr.Instance.savedata(musicdata, "Music");
 
         }
+        if (accessmap.notFirst == false)
+        {
+            accessmap.notFirst = true;
+            accessmap.firstIf = true;
+            accessmap.secondIf = false;
+            accessmap.thirdIf = false;
+            playerPrefsDataMgr.Instance.savedata(accessmap, "AccessMap");
+
+        }
+       
     }
     public void changeMusic(float val)
     {
