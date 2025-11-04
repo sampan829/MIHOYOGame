@@ -30,10 +30,8 @@ public class startPanel : basePanel
     {
         gameRoot.Instance.UIManagerRoot.pop(false);
         gameRoot.Instance.UIManagerRoot.push(new choosePanel());
-        /*
-        Scene2 scene2 = new Scene2();
-        //SceneContro.Instance.scenedic.Add(scene2.name, scene2);
-        SceneContro.Instance.loadScene(scene2.name,scene2);*/
+       
+       
 
     }
     private void SETTING()

@@ -101,7 +101,7 @@ public class playerPrefsDataMgr
             
             FieldInfo info = infos[i];
             loadname= keyname + "_"+type.Name+ "_"+ info.FieldType.Name + "_" + info.Name;
-            Debug.Log(loadname);
+           // Debug.Log(loadname);
             info.SetValue(data, loadvalue(info.FieldType, loadname));
         }
 

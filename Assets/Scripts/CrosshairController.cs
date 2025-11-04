@@ -14,6 +14,7 @@ public class CrosshairController : MonoBehaviour
     void Update()
     {
         CheckForFloorClick();
+        CheckEventClick();
     }
 
     void OnGUI()
@@ -49,4 +50,36 @@ public class CrosshairController : MonoBehaviour
             }
         }
     }
+
+    //kjq do work  vvvvv
+    private void CheckEventClick()
+    {
+        if (Input.GetMouseButtonDown(0) && Cursor.lockState == CursorLockMode.Locked)
+        {
+            Ray ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit, interactionDistance, floorLayerMask))
+            {
+                cubeController cube = hit.collider.GetComponent<cubeController>();
+                if (cube != null)
+                {
+                    cube.OnCubeClicked();
+                }
+                scene1Tigger scene1tigger = hit.collider.GetComponent<scene1Tigger>();
+                if(scene1tigger != null)
+                {
+                    scene1tigger.eventTigger();
+                }
+                Debug.Log("ROROORORCK");
+                scene2Tigeer scene2tigger = hit.collider.GetComponent<scene2Tigeer>();
+                if (scene2tigger != null)
+                {
+                    scene2tigger.eventTigger();
+                }
+
+            }
+        }
+    }
+
 }

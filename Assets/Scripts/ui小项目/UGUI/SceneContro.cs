@@ -9,9 +9,14 @@ public class SceneContro
     public Dictionary<string, SceneBase> scenedic;
     private static SceneContro instance;
     public SceneContro() { 
-    
-        instance=this;
-        scenedic = new Dictionary<string, SceneBase>();
+        if (instance == null)
+        {
+            instance=this;
+        
+            scenedic = new Dictionary<string, SceneBase>();
+
+        }
+        
     }
     public static SceneContro Instance
     {

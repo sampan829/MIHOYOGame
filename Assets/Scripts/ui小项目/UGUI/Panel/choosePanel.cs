@@ -33,13 +33,18 @@ public class choosePanel :basePanel
         accessMap am=playerPrefsDataMgr.Instance.loaddata(typeof(accessMap), "AccessMap") as accessMap;
         if (am.firstIf == true)
         {
-            
-            GameObject X = GameObject.Find("firstmap/X");
-            X.SetActive(false);
+
+            Transform X = activeobj.transform.Find("firstmap/X").GetComponent<Transform>();
+            X.gameObject.SetActive(false);
             firstMapButton.onClick.AddListener(() =>
             {
-                SceneManager.LoadScene("initial-map-1");
+                //SceneManager.LoadScene("initial-map-1");
                 UIManager.Instance.pop(true);
+
+                Scene1 scene1 = new Scene1();
+                SceneContro.Instance.scenedic.Add(Scene1.name, scene1);
+                gameRoot.Instance.sc1 = scene1;
+                SceneContro.Instance.loadScene(Scene1.name, scene1);
             });
             
         }
@@ -49,14 +54,19 @@ public class choosePanel :basePanel
         }
         if (am.secondIf == true)
         {
-           
-            GameObject X = GameObject.Find("secondmap/X");
-            X.SetActive(false);
+
+            Transform X = activeobj.transform.Find("secondmap/X").GetComponent<Transform>(); 
+            X.gameObject.SetActive(false);
 
             dierMapButton.onClick.AddListener(() =>
             {
                 SceneManager.LoadScene("Final-map-1");
                 UIManager.Instance.pop(true);
+
+                Scene2 scene2 = new Scene2();
+                SceneContro.Instance.scenedic.Add(Scene2.name, scene2);
+                gameRoot.Instance.sc2 = scene2;
+                SceneContro.Instance.loadScene(Scene2.name, scene2);
             });
 
         }
@@ -66,9 +76,9 @@ public class choosePanel :basePanel
         }
         if (am.thirdIf == true)
         {
-           
-            GameObject X = GameObject.Find("thirdmap/X");
-            X.SetActive(false);
+
+            Transform X = activeobj.transform.Find("thirdmap/X").GetComponent<Transform>(); 
+            X.gameObject.SetActive(false);
 
             disanMapButton.onClick.AddListener(() =>
             {
