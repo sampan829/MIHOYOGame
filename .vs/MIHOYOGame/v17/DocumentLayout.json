@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|c:\\users\\95216_10b56cq\\desktop\\resc\\mihoyogame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\choosepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\choosepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|c:\\users\\95216_10b56cq\\desktop\\resc\\mihoyogame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\datamgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\datamgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|c:\\users\\95216_10b56cq\\desktop\\resc\\mihoyogame\\assets\\scripts\\floorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|c:\\users\\95216_10b56cq\\desktop\\resc\\mihoyogame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\accessmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\accessmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|c:\\users\\95216_10b56cq\\desktop\\resc\\mihoyogame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\musicdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\musicdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\floorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\floorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,19 +39,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "choosePanel.cs",
+              "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\choosePanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\choosePanel.cs",
+              "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\choosePanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\choosePanel.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAADoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:55:17.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "accessMap.cs",
+              "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\accessMap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\accessMap.cs",
+              "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\accessMap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\accessMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:30:29.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "musicData.cs",
+              "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\musicData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\musicData.cs",
+              "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\musicData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\musicData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:30:22.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "dataMgr.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\dataMgr.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\dataMgr.cs",
               "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\dataMgr.cs",
               "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\dataMgr.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABAAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T14:27:35.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FloorController.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\FloorController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FloorController.cs",
@@ -47,8 +98,7 @@
               "RelativeToolTip": "Assets\\Scripts\\FloorController.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAswG4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T16:03:42.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T16:03:42.505Z"
             }
           ]
         }

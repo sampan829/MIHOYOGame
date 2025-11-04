@@ -34,7 +34,13 @@ public class dataMgr
             playerPrefsDataMgr.Instance.savedata(accessmap, "AccessMap");
 
         }
-       
+        //test
+
+        accessmap.firstIf = true;
+        accessmap.secondIf = true;
+        accessmap.thirdIf = true;
+        playerPrefsDataMgr.Instance.savedata(accessmap, "AccessMap");
+        //
     }
     public void changeMusic(float val)
     {

@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 8f0aab7e355072841a3309fd7f9db060
+  - enabled: 1
+    path: Assets/Scenes/initial-map-1.unity
+    guid: cba56176591592f47be1a96431ec9f9f
+  - enabled: 1
+    path: Assets/Scenes/Final-map-1.unity
+    guid: bd18767359476c944824bdb32259c34f
+  - enabled: 1
+    path: Assets/Scenes/Final-map-2.unity
+    guid: f8c55689e0e2ea94b97de4d1f7089ff8
   m_configObjects: {}
