@@ -8,6 +8,7 @@ TagManager:
   - Bottle
   - Rock
   - RockNextCamp
+  - Tent
   layers:
   - Default
   - TransparentFX

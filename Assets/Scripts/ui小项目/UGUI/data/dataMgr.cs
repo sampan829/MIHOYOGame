@@ -38,7 +38,7 @@ public class dataMgr
 
         accessmap.firstIf = true;
         accessmap.secondIf = true;
-        accessmap.thirdIf = true;
+        accessmap.thirdIf = false;
         playerPrefsDataMgr.Instance.savedata(accessmap, "AccessMap");
         //
     }

@@ -8,12 +8,16 @@ public class Scene1 :SceneBase
 
 {
     public static string name = "initial-map-1";
-    public static readonly string passCom = "KJQNB";
+    //public static readonly string passCom = "KJQNB";
 
     public bool clock;
     public bool bottleWater;
     public bool stone;
+    public bool tent;
+
+    public bool tents;
     public bool win;
+    
     private static Scene1 instance;
     public static Scene1 Instance
     {
@@ -36,8 +40,9 @@ public class Scene1 :SceneBase
 
     public override void exitScene()
     {
-        
-        instance = null;
+
+        //instance = null;
+        gameRoot.Instance.removeScene<Scene1>();
         
     }
 

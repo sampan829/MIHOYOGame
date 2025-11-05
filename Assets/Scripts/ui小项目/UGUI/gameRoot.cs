@@ -1,4 +1,5 @@
 using Boxophobic.Utility;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -58,6 +59,7 @@ public class gameRoot : MonoBehaviour
             Scene1 scene1 = new Scene1();
 
             SceneContro.Instance.scenedic.Add(Scene1.name, scene1);
+            sc1 = sceneContorlRoot.scenedic[Scene1.name] as Scene1;
             UIManagerRoot.push(new paperPanel());
             // if (SceneContro.Instance.scenedic.ContainsKey(SceneManager.GetActiveScene().name)) Debug.Log("正确的");
 
@@ -99,19 +101,36 @@ public class gameRoot : MonoBehaviour
             }
             
 
-                Debug.Log("hihihi" + UIManagerRoot.uistack.Count);
+                //Debug.Log("hihihi" + UIManagerRoot.uistack.Count);
             return;
         }
         else  if (SceneManager.GetActiveScene().name == Scene1.name)
         {
-            if (sceneContorlRoot.scenedic[Scene1.name] != null && (sceneContorlRoot.scenedic[Scene1.name] as Scene1).win == false)
+            Debug.Log("sc111");
+            if (sc1 == null) Debug.Log("sc1 nullllllllll");
+            if (sc1 != null && sc1.win == false)
             {
                 //(sceneContorlRoot.scenedic[Scene1.name] as Scene1).clock
+                Debug.Log(sc1.tents+"sc1tentsssssssss");
+                Debug.Log(sc1.tent+"sc1tentttttttttt");
+                Debug.Log(sc1.bottleWater +"sc1 bbbbbooowwwwww");
+
+                if (sc1.tents == false)
+                    {
+                        if (sc1.bottleWater && sc1.tent)
+                        {
+                            sc1.tents = true;
+                            GameObject.Instantiate(Resources.Load("prefabs/Tents"));
+                        }
+                    }
+                
             }
 
         }
         else if (SceneManager.GetActiveScene().name == Scene2.name)
         {
+              Debug.Log(sc2.win);
+            if (sc2 == null) Debug.Log("sc2 is null");
             //sc2 = sceneContorlRoot.scenedic[Scene2.name] as Scene2;
             if (sc2 != null && sc2.win == false)
             {
@@ -179,6 +198,24 @@ public class gameRoot : MonoBehaviour
     {
         sceneSwitch = false;
 
+    }
+
+    public void removeScene<T>() where T:SceneBase
+    {
+        Type t= typeof(T);
+        if (t == typeof(Scene1))
+        {
+            if(instance!=null)Instance. sc1 = null;
+            else
+                Debug.Log("gameroot instance ==null , 无法删除场景");
+        }
+        else if (t == typeof(Scene2))
+        {
+            if (instance != null)Instance. sc2 = null;
+            else
+                Debug.Log("gameroot instance ==null , 无法删除场景");
+        }
+        else;
     }
 
 }

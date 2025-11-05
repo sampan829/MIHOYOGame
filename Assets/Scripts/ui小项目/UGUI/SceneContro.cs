@@ -31,6 +31,7 @@ public class SceneContro
 
         if (scenedic.ContainsKey(SceneManager.GetActiveScene().name)){
             scenedic[SceneManager.GetActiveScene().name] .exitScene();
+            scenedic.Remove(SceneManager.GetActiveScene().name);
         }
         gameRoot.Instance.UIManagerRoot.pop(true);
 

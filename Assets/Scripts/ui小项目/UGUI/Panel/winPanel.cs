@@ -2,6 +2,7 @@ using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class winPanel : basePanel
@@ -43,6 +44,16 @@ public class winPanel : basePanel
            
             gameRoot.Instance.UIManagerRoot.pop(true);
             gameRoot.Instance.sceneContorlRoot.loadScene("MainScene",new Scene0());
+            if (SceneManager.GetActiveScene().name == Scene1.name)
+            {
+                dataMgr.Instance.accessmap.secondIf = true;
+                playerPrefsDataMgr.Instance.savedata(dataMgr.Instance.accessmap, "AccessMap");
+            }
+            else if(SceneManager.GetActiveScene().name == Scene2.name)
+            {
+                dataMgr.Instance.accessmap.thirdIf = true;
+                playerPrefsDataMgr.Instance.savedata(dataMgr.Instance.accessmap, "AccessMap");
+            }
             //gameRoot.Instance.UIManagerRoot.push(new startPanel());
         }
         );

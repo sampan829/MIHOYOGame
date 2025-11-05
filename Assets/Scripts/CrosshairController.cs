@@ -69,6 +69,7 @@ public class CrosshairController : MonoBehaviour
                 scene1Tigger scene1tigger = hit.collider.GetComponent<scene1Tigger>();
                 if(scene1tigger != null)
                 {
+                    //.Log("sc1tiger");
                     scene1tigger.eventTigger();
                 }
                // Debug.Log("ROROORORCK");

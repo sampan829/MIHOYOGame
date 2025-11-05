@@ -32,7 +32,9 @@ public class Scene2 :SceneBase
 
     public override void exitScene()
     {
-        instance=null;
+        //instance=null;
+        // gameRoot.Instance.sc2 = null;
+        gameRoot.Instance.removeScene<Scene2>();
     }
 
     // Start is called before the first frame update

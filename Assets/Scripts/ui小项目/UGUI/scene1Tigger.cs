@@ -5,6 +5,8 @@ using UnityEngine;
 public class scene1Tigger : MonoBehaviour
 {
     // Start is called before the first frame update
+    private Time nowtime;
+    private Time triggertime;
     void Start()
     {
         
@@ -30,23 +32,20 @@ public class scene1Tigger : MonoBehaviour
                 
 
                 case "Clock":
-
-                   
-                   
-                        tmp.clock = true;
-
-                    
+                    tmp.clock = true;
                     break;
                 case "Rock":
-                   
-                   
                     tmp.stone = true;
-                    
                     break;
                 case "Bottle":
-
+                    Debug.Log("bottle");
                     tmp.bottleWater= true;
                     break;
+                case "Tent":
+                    Debug.Log("tent");
+                    tmp.tent= true;
+                    break;
+
 
             }
 
