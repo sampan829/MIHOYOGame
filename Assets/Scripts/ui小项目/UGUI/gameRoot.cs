@@ -1,8 +1,11 @@
+using Boxophobic.Utility;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class gameRoot : MonoBehaviour
 {
@@ -13,6 +16,7 @@ public class gameRoot : MonoBehaviour
     public SceneContro sceneContorlRoot;
     
     private static gameRoot instance;
+    private bool sceneSwitch= false ;
     public static gameRoot Instance
     {
         get { return instance; }
@@ -45,6 +49,7 @@ public class gameRoot : MonoBehaviour
 
 
             UIManagerRoot.push(new startPanel());
+            //UIManagerRoot.push(new winPanel());
 
         }
         //≤‚ ‘≤≈¥•∑¢
@@ -64,8 +69,15 @@ public class gameRoot : MonoBehaviour
             SceneContro.Instance.scenedic.Add(Scene2.name, scene2);
             sc2 = sceneContorlRoot.scenedic[Scene2.name] as Scene2;
             UIManagerRoot.push(new paperPanel());
+            //UIManagerRoot.push(new winPanel());
+           // UIManagerRoot.push(new startPanel());
         }
-        else;
+        else
+        {
+           // UIManagerRoot.push(new startPanel());
+        }
+        
+        
         
     }
 
@@ -75,47 +87,98 @@ public class gameRoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (SceneManager.GetActiveScene().name == Scene1.name)
+        if (sceneSwitch) return;
+
+        Debug.Log(SceneManager.GetActiveScene().name );
+        if(SceneManager.GetActiveScene().name == Scene0.name)
         {
-            if (sceneContorlRoot.scenedic[Scene1.name] != null&& (sceneContorlRoot.scenedic[Scene1.name] as Scene1).win==false)
+            if (UIManagerRoot.uistack.Count == 0)
             {
-                  //(sceneContorlRoot.scenedic[Scene1.name] as Scene1).clock
+                UIManagerRoot.push(new startPanel());
+
             }
             
+
+                Debug.Log("hihihi" + UIManagerRoot.uistack.Count);
+            return;
+        }
+        else  if (SceneManager.GetActiveScene().name == Scene1.name)
+        {
+            if (sceneContorlRoot.scenedic[Scene1.name] != null && (sceneContorlRoot.scenedic[Scene1.name] as Scene1).win == false)
+            {
+                //(sceneContorlRoot.scenedic[Scene1.name] as Scene1).clock
+            }
+
         }
         else if (SceneManager.GetActiveScene().name == Scene2.name)
         {
             //sc2 = sceneContorlRoot.scenedic[Scene2.name] as Scene2;
-            if (sc2 != null && sc2 .win == false)
+            if (sc2 != null && sc2.win == false)
             {
                 if (sc2.mountain == false && sc2.stone)
                 {
                     sc2.mountain = true;
                     GameObject.Instantiate(Resources.Load("prefabs/Rock"));
                 }
-                if(sc2.forest == false&& sc2.bottleWater && sc2.rockNextCamp)
+                if (sc2.forest == false && sc2.bottleWater && sc2.rockNextCamp)
                 {
-                    Debug.Log("ssss");
-                   sc2.forest= true;
-                   GameObject.Instantiate(Resources.Load("prefabs/Plant"));
+
+                    sc2.forest = true;
+                    GameObject.Instantiate(Resources.Load("prefabs/Plant"));
 
 
 
 
                 }
 
-                if (sc2.forest && sc2.mountain)sc2.win= true;
+                if (sc2.forest && sc2.mountain) sc2.win = true;
+
+
+
 
             }
+
             else if (sc2.win)
             {
+                sceneSwitch = true;
                 Debug.Log("you win");
+                Time.timeScale = 0;
+                if (UIManagerRoot.uistack.Peek().uiType.Name != winPanel.name)
+                {
+                    Debug.Log("ttt");
+                    Debug.Log(SceneManager.GetActiveScene().name + " win panel ");
+                    UIManagerRoot.push(new winPanel());
+                }
 
-                
             }
+
         }
         
         
     }
-    
+    private void OnGUI()
+    {
+
+        if (SceneManager.GetActiveScene().name == Scene2.name)
+        {
+
+            
+        }
+        
+
+    }
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += scSwitch;
+    }
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= scSwitch;
+    }
+    private  void scSwitch( Scene s,LoadSceneMode mode)
+    {
+        sceneSwitch = false;
+
+    }
+
 }

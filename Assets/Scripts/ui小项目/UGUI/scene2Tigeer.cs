@@ -25,6 +25,7 @@ public class scene2Tigeer : MonoBehaviour
                 Debug.Log("scene1 don exist");
                 return;
             }
+            
             switch (this.tag)
             {
 

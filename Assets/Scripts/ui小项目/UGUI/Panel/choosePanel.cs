@@ -19,8 +19,11 @@ public class choosePanel :basePanel
     
     private void BACK()
     {
+        /*
         UIManager.Instance.pop(false);
-        UIManager.Instance.push(new startPanel());
+        UIManager.Instance.push(new startPanel());*/
+        gameRoot.Instance.UIManagerRoot.pop(false);
+        gameRoot.Instance.UIManagerRoot.push(new startPanel());
     }
 
     public override void OnStart()

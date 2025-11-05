@@ -7,7 +7,7 @@ public class UIManager
 {
     // Start is called before the first frame update
     public Dictionary<string,GameObject> uidic;
-    Stack<basePanel> uistack;
+    public  Stack<basePanel> uistack;
     public GameObject canvasObj;
     private static UIManager instance;
     public static UIManager Instance
@@ -64,6 +64,7 @@ public class UIManager
     }
     public void pop(bool isload)
     {
+        Debug.Log(this);
         if (isload == true)
         {
             if (uistack.Count > 0)
