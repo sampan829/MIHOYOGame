@@ -29,6 +29,9 @@ public class MouseLook : MonoBehaviour
         // °´ESC¼üÇÐ»»Êó±êËø¶¨×´Ì¬
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            if (gameRoot.Instance.UIManagerRoot.uidic.ContainsKey(trueExitPanel.uIType.Name) || gameRoot.Instance.UIManagerRoot.uidic.ContainsKey(EscPanel.uIType.Name)
+                    || gameRoot.Instance.UIManagerRoot.uidic.ContainsKey(settingPanel.uIType.Name)) return;
+               
             ToggleCursorLock();
         }
     }

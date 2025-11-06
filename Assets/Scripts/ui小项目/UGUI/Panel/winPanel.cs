@@ -43,7 +43,7 @@ public class winPanel : basePanel
             Time.timeScale= 1.0f;
            
             gameRoot.Instance.UIManagerRoot.pop(true);
-            gameRoot.Instance.sceneContorlRoot.loadScene("MainScene",new Scene0());
+            gameRoot.Instance.sceneContorlRoot.loadScene(Scene0.name,new Scene0());
             if (SceneManager.GetActiveScene().name == Scene1.name)
             {
                 dataMgr.Instance.accessmap.secondIf = true;

@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\ui小项目\UGUI\data\musicData.cs" />
     <Compile Include="Assets\Scripts\ui小项目\UGUI\Effect\titleMove.cs" />
     <Compile Include="Assets\Scripts\ui小项目\UGUI\Panel\basePanel.cs" />
+    <Compile Include="Assets\Scripts\ui小项目\UGUI\Panel\trueExitPanel.cs" />
     <Compile Include="Assets\Scripts\ui小项目\UGUI\bkMusic.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
@@ -109,6 +110,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\ui小项目\UGUI\scene1Tigger.cs" />
+    <Compile Include="Assets\Scripts\ui小项目\UGUI\Panel\EscPanel.cs" />
     <Compile Include="Assets\Scripts\FloorController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />

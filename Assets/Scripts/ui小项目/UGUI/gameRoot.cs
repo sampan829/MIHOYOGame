@@ -89,91 +89,11 @@ public class gameRoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (sceneSwitch) return;
 
-        Debug.Log(SceneManager.GetActiveScene().name );
-        if(SceneManager.GetActiveScene().name == Scene0.name)
-        {
-            if (UIManagerRoot.uistack.Count == 0)
-            {
-                UIManagerRoot.push(new startPanel());
-
-            }
-            
-
-                //Debug.Log("hihihi" + UIManagerRoot.uistack.Count);
-            return;
-        }
-        else  if (SceneManager.GetActiveScene().name == Scene1.name)
-        {
-            Debug.Log("sc111");
-            if (sc1 == null) Debug.Log("sc1 nullllllllll");
-            if (sc1 != null && sc1.win == false)
-            {
-                //(sceneContorlRoot.scenedic[Scene1.name] as Scene1).clock
-                Debug.Log(sc1.tents+"sc1tentsssssssss");
-                Debug.Log(sc1.tent+"sc1tentttttttttt");
-                Debug.Log(sc1.bottleWater +"sc1 bbbbbooowwwwww");
-
-                if (sc1.tents == false)
-                    {
-                        if (sc1.bottleWater && sc1.tent)
-                        {
-                            sc1.tents = true;
-                            GameObject.Instantiate(Resources.Load("prefabs/Tents"));
-                        }
-                    }
-                
-            }
-
-        }
-        else if (SceneManager.GetActiveScene().name == Scene2.name)
-        {
-              Debug.Log(sc2.win);
-            if (sc2 == null) Debug.Log("sc2 is null");
-            //sc2 = sceneContorlRoot.scenedic[Scene2.name] as Scene2;
-            if (sc2 != null && sc2.win == false)
-            {
-                if (sc2.mountain == false && sc2.stone)
-                {
-                    sc2.mountain = true;
-                    GameObject.Instantiate(Resources.Load("prefabs/Rock"));
-                }
-                if (sc2.forest == false && sc2.bottleWater && sc2.rockNextCamp)
-                {
-
-                    sc2.forest = true;
-                    GameObject.Instantiate(Resources.Load("prefabs/Plant"));
+        checkWin();
+        Esc();
 
 
-
-
-                }
-
-                if (sc2.forest && sc2.mountain) sc2.win = true;
-
-
-
-
-            }
-
-            else if (sc2.win)
-            {
-                sceneSwitch = true;
-                Debug.Log("you win");
-                Time.timeScale = 0;
-                if (UIManagerRoot.uistack.Peek().uiType.Name != winPanel.name)
-                {
-                    Debug.Log("ttt");
-                    Debug.Log(SceneManager.GetActiveScene().name + " win panel ");
-                    UIManagerRoot.push(new winPanel());
-                }
-
-            }
-
-        }
-        
-        
     }
     private void OnGUI()
     {
@@ -217,5 +137,127 @@ public class gameRoot : MonoBehaviour
         }
         else;
     }
+    private void checkWin()
+    {
 
+        if (sceneSwitch) return;
+
+        Debug.Log(SceneManager.GetActiveScene().name);
+        if (SceneManager.GetActiveScene().name == Scene0.name)
+        {
+            if (UIManagerRoot.uistack.Count == 0)
+            {
+                UIManagerRoot.push(new startPanel());
+
+            }
+
+
+            //Debug.Log("hihihi" + UIManagerRoot.uistack.Count);
+            return;
+        }
+        else if (SceneManager.GetActiveScene().name == Scene1.name)
+        {
+          
+            if (sc1 != null && sc1.win == false)
+            {
+                //(sceneContorlRoot.scenedic[Scene1.name] as Scene1).clock
+                
+
+                if (sc1.tents == false)
+                {
+                    if (sc1.bottleWater && sc1.tent)
+                    {
+                        sc1.tents = true;
+                        GameObject.Instantiate(Resources.Load("prefabs/Tents"));
+                        sc1.win= true; 
+                    }
+                }
+
+            }
+            else if (sc1.win)
+            {
+                sceneSwitch=true;
+                Debug.Log("you win");
+                Time.timeScale = 0;
+                if (UIManagerRoot.uistack.Peek().uiType.Name != winPanel.name)
+                {
+                    Debug.Log("ttt");
+                    Debug.Log(SceneManager.GetActiveScene().name + " win panel ");
+                    UIManagerRoot.push(new winPanel());
+                }
+            }
+
+        }
+        else if (SceneManager.GetActiveScene().name == Scene2.name)
+        {
+            Debug.Log(sc2.win);
+            if (sc2 == null) Debug.Log("sc2 is null");
+            //sc2 = sceneContorlRoot.scenedic[Scene2.name] as Scene2;
+            if (sc2 != null && sc2.win == false)
+            {
+                if (sc2.mountain == false && sc2.stone)
+                {
+                    sc2.mountain = true;
+                    GameObject.Instantiate(Resources.Load("prefabs/Rock"));
+                }
+                if (sc2.forest == false && sc2.bottleWater && sc2.rockNextCamp)
+                {
+
+                    sc2.forest = true;
+                    GameObject.Instantiate(Resources.Load("prefabs/Plant"));
+
+
+
+
+                }
+
+                if (sc2.forest && sc2.mountain) sc2.win = true;
+
+
+
+
+            }
+            else if (sc2.win)
+            {
+                sceneSwitch = true;
+                Debug.Log("you win");
+                Time.timeScale = 0;
+                if (UIManagerRoot.uistack.Peek().uiType.Name != winPanel.name)
+                {
+                    Debug.Log("ttt");
+                    Debug.Log(SceneManager.GetActiveScene().name + " win panel ");
+                    UIManagerRoot.push(new winPanel());
+                }
+
+            }
+
+        }
+    }
+    private void Esc()
+    {
+        string scname = SceneManager.GetActiveScene().name;
+        if (scname == null) return;
+        if (scname == Scene1.name || scname == Scene2.name)
+        {
+            if(Input.GetKeyDown(KeyCode.Escape))
+            {
+                if (UIManagerRoot.uidic.ContainsKey(trueExitPanel.uIType.Name) || UIManagerRoot.uidic.ContainsKey(EscPanel.uIType.Name)
+                    || UIManagerRoot.uidic.ContainsKey(settingPanel.uIType.Name) || UIManagerRoot.uidic.ContainsKey(winPanel.uIType.Name)
+                    
+                    )
+                    return;
+                UIManagerRoot.push(new EscPanel());
+
+
+                    
+
+            }
+        }
+        
+        
+    }
+    public void changeSceneSwitch(bool val)
+    {
+        sceneSwitch = val;
+    }
 }

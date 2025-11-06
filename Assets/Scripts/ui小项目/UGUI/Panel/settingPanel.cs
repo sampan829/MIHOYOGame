@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class settingPanel : basePanel
@@ -25,14 +26,23 @@ public class settingPanel : basePanel
     }
     private void BACK()
     {
-        
+
         /*
         UIManager.Instance.pop(false);
         UIManager.Instance.push(new startPanel());
         */
+
+        if (SceneManager.GetActiveScene().name==Scene0.name)
+        {
+            gameRoot.Instance.UIManagerRoot.pop(false);
+            gameRoot.Instance.UIManagerRoot.push(new startPanel());
+        }
+        else
+        {
+            gameRoot.Instance.UIManagerRoot.pop(false);
+            gameRoot.Instance.UIManagerRoot.push(new EscPanel());   
+        }
         
-        gameRoot.Instance.UIManagerRoot.pop(false);
-        gameRoot.Instance.UIManagerRoot.push(new startPanel());
     }
     public override void OnStart()
     {

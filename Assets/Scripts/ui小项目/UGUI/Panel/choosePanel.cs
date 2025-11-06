@@ -47,7 +47,9 @@ public class choosePanel :basePanel
                 Scene1 scene1 = new Scene1();
                // SceneContro.Instance.scenedic.Add(Scene1.name, scene1);
                 gameRoot.Instance.sc1 = scene1;
-                SceneContro.Instance.loadScene(Scene1.name, scene1);
+
+                //SceneContro.Instance.loadScene(Scene1.name, scene1);
+                gameRoot.Instance.sceneContorlRoot.loadScene(Scene1.name, scene1);
             });
             
         }
@@ -69,7 +71,8 @@ public class choosePanel :basePanel
                 Scene2 scene2 = new Scene2();
                // SceneContro.Instance.scenedic.Add(Scene2.name, scene2);
                 gameRoot.Instance.sc2 = scene2;
-                SceneContro.Instance.loadScene(Scene2.name, scene2);
+                // SceneContro.Instance.loadScene(Scene2.name, scene2);
+                gameRoot.Instance.sceneContorlRoot.loadScene(Scene2.name, scene2);
             });
 
         }
