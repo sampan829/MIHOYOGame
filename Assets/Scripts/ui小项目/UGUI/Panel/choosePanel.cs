@@ -65,7 +65,7 @@ public class choosePanel :basePanel
 
             dierMapButton.onClick.AddListener(() =>
             {
-                SceneManager.LoadScene("Final-map-1");
+                //SceneManager.LoadScene("Final-map-1");
                 UIManager.Instance.pop(true);
 
                 Scene2 scene2 = new Scene2();
@@ -88,8 +88,12 @@ public class choosePanel :basePanel
 
             disanMapButton.onClick.AddListener(() =>
             {
-                SceneManager.LoadScene("Final-map-2");
+                //SceneManager.LoadScene("Final-map-2");
                 UIManager.Instance.pop(true);
+                Scene3 scene3 = new Scene3();
+                gameRoot.Instance.sc3 = scene3;
+                gameRoot.Instance.sceneContorlRoot.loadScene(Scene3.name, scene3);
+
             });
         }
         else

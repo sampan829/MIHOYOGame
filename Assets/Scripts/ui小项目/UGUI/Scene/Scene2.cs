@@ -16,6 +16,10 @@ public class Scene2 :SceneBase
 
     public bool win;
 
+    public Scene2()
+    {
+
+    }
     private static Scene2 instance;
     public static Scene2 Instance
     {
@@ -37,15 +41,17 @@ public class Scene2 :SceneBase
         gameRoot.Instance.removeScene<Scene2>();
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public void renewstatement(bool val)
     {
-        
-    }
+        if (val)
+        {
+            clock = false;
+            bottleWater=false;
+            stone = false;
+            rockNextCamp=false;
+            
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        }
     }
+ 
 }

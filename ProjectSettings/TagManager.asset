@@ -9,6 +9,8 @@ TagManager:
   - Rock
   - RockNextCamp
   - Tent
+  - Seafloor
+  - grass
   layers:
   - Default
   - TransparentFX

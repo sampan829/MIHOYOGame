@@ -67,16 +67,23 @@ public class CrosshairController : MonoBehaviour
                     cube.OnCubeClicked();
                 }
                 scene1Tigger scene1tigger = hit.collider.GetComponent<scene1Tigger>();
+                scene2Tigeer scene2tigger = hit.collider.GetComponent<scene2Tigeer>();
+                scene3Tigger sc3t= hit.collider.GetComponent<scene3Tigger>();
                 if(scene1tigger != null)
                 {
                     //.Log("sc1tiger");
                     scene1tigger.eventTigger();
                 }
                // Debug.Log("ROROORORCK");
-                scene2Tigeer scene2tigger = hit.collider.GetComponent<scene2Tigeer>();
-                if (scene2tigger != null)
+               
+                else if (scene2tigger != null)
                 {
                     scene2tigger.eventTigger();
+                }
+                
+                else if (sc3t != null)
+                {
+                    sc3t.eventTigger();
                 }
 
             }

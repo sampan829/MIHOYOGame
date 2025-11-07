@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -72,11 +73,17 @@ public class gameRoot : MonoBehaviour
             sc2 = sceneContorlRoot.scenedic[Scene2.name] as Scene2;
             UIManagerRoot.push(new paperPanel());
             //UIManagerRoot.push(new winPanel());
-           // UIManagerRoot.push(new startPanel());
+            // UIManagerRoot.push(new startPanel());
         }
-        else
+        else if (SceneManager.GetActiveScene().name == Scene3.name)
         {
-           // UIManagerRoot.push(new startPanel());
+
+            Scene3 scene3 = new Scene3();
+            SceneContro.Instance.scenedic.Add(Scene3.name, scene3);
+            sc3 = sceneContorlRoot.scenedic[Scene3.name] as Scene3;
+            UIManagerRoot.push(new paperPanel());
+
+
         }
         
         
@@ -86,6 +93,7 @@ public class gameRoot : MonoBehaviour
     public Scene0 sc0;
     public Scene1 sc1;
     public Scene2 sc2;
+    public Scene3 sc3;
     // Update is called once per frame
     void Update()
     {
@@ -114,7 +122,7 @@ public class gameRoot : MonoBehaviour
     {
         SceneManager.sceneLoaded -= scSwitch;
     }
-    private  void scSwitch( Scene s,LoadSceneMode mode)
+    private  void scSwitch( UnityEngine.SceneManagement.Scene s,LoadSceneMode mode)
     {
         sceneSwitch = false;
 
@@ -135,7 +143,12 @@ public class gameRoot : MonoBehaviour
             else
                 Debug.Log("gameroot instance ==null , 无法删除场景");
         }
-        else;
+        else if(t == typeof(Scene3))
+        {
+            if (instance != null) Instance.sc3 = null;
+            else
+                Debug.Log("gameroot instance ==null , 无法删除场景");
+        }
     }
     private void checkWin()
     {
@@ -232,12 +245,62 @@ public class gameRoot : MonoBehaviour
             }
 
         }
+        else if(SceneManager.GetActiveScene().name == Scene3.name)
+        {
+            if (sc3 != null && sc3.win == false)
+            {
+                Debug.Log("s");
+                if (sc3.buliding == false)
+                {
+                    if (sc3.tent)
+                    {
+                        sc3.delete = true;
+                        sc3.buliding = true;
+                        GameObject.Instantiate(Resources.Load("prefabs/building"));
+                    }
+                }
+
+               if(sc3.bridge== false)
+                {
+                    if (sc3.seafloor)
+                    {
+                        sc3.bridge= true;
+                        GameObject.Instantiate(Resources.Load("prefabs/bridege"));
+                    }
+                }
+               if(sc3.farm == false)
+                {
+                    if (sc3.bottlewater && sc3.grass)
+                    {
+                        sc3.farm= true;
+                        GameObject.Instantiate(Resources.Load("prefabs/Farm"));
+                    }
+                }
+                if (sc3.farm && sc3.bridge && sc3.farm)
+                {
+                    sc3.win= true;
+                }
+            }
+            else if(sc3 != null&&sc3.win)
+            {
+                sceneSwitch = true;
+                Debug.Log("you win");
+                Time.timeScale = 0;
+                if (UIManagerRoot.uistack.Peek().uiType.Name != winPanel.name)
+                {
+                    Debug.Log("ttt");
+                    Debug.Log(SceneManager.GetActiveScene().name + " win panel ");
+                    UIManagerRoot.push(new winPanel());
+                }
+            }
+            
+        }
     }
     private void Esc()
     {
         string scname = SceneManager.GetActiveScene().name;
         if (scname == null) return;
-        if (scname == Scene1.name || scname == Scene2.name)
+        if (scname == Scene1.name || scname == Scene2.name||scname==Scene3.name)
         {
             if(Input.GetKeyDown(KeyCode.Escape))
             {

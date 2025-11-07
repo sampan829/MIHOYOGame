@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|c:\\users\\95216_10b56cq\\desktop\\resc\\mihoyogame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\gameroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\gameroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\gameroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scene1tigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scene1tigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\paperpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\paperpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scene\\scene1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scene\\scene1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\crosshaircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crosshaircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scene\\scene0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scene\\scene0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\choosepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\choosepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scene2tigeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,8 +15,56 @@
       "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scene\\scene2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|c:\\users\\95216_10b56cq\\desktop\\resc\\mihoyogame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\winpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\winpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\settingpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\settingpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\escpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\escpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\trueexitpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\trueexitpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\startpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\startpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\datamgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\datamgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\musicdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\musicdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scene\\scene0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scene\\scene0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scene\\scene1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scene\\scene1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\choosepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\choosepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scenecontro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scenecontro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\crosshaircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crosshaircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,20 +75,16 @@
       "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scene\\scenebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\winpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\winpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scene1tigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\scene1tigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\datamgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\datamgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\paperpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\paperpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\accessmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\accessmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\startpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\panel\\startpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\uimethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\floorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\floorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\musicdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E12C47AE-1B8B-62A3-ABCD-FEA84BCF84FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\u5C0F\u9879\u76EE\\ugui\\data\\musicdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,43 +114,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "choosePanel.cs",
-              "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\choosePanel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\choosePanel.cs",
-              "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\choosePanel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\choosePanel.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAkwEUAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "MouseLook.cs",
+              "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\MouseLook.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MouseLook.cs",
+              "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\MouseLook.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MouseLook.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T14:55:17.098Z"
+              "WhenOpened": "2025-11-06T06:19:58.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UIManager.cs",
-              "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\UIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\UIManager.cs",
-              "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\UIManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\UIManager.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAMwEIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T06:38:52.101Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "winPanel.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\winPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\winPanel.cs",
               "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\winPanel.cs",
               "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\winPanel.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAABQwDAAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAABIwDMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T13:23:10.032Z"
+              "WhenOpened": "2025-11-04T13:23:10.032Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "trueExitPanel.cs",
+              "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\trueExitPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\trueExitPanel.cs",
+              "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\trueExitPanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\trueExitPanel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T05:37:42.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EscPanel.cs",
+              "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\EscPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\EscPanel.cs",
+              "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\EscPanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\EscPanel.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T05:33:14.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "settingPanel.cs",
+              "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\settingPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\settingPanel.cs",
+              "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\settingPanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\settingPanel.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:41:05.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "choosePanel.cs",
+              "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\choosePanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\choosePanel.cs",
+              "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\choosePanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\choosePanel.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:55:17.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\UIManager.cs",
+              "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\UIManager.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwCcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T06:38:52.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "scene2Tigeer.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\scene2Tigeer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\scene2Tigeer.cs",
@@ -142,23 +207,25 @@
               "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\scene2Tigeer.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAwwBgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:13:43.21Z"
+              "WhenOpened": "2025-11-04T10:13:43.21Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Scene2.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Scene\\Scene2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Scene\\Scene2.cs",
               "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Scene\\Scene2.cs",
               "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Scene\\Scene2.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:00:19.156Z"
+              "WhenOpened": "2025-11-04T10:00:19.156Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 18,
               "Title": "scene1Tigger.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\scene1Tigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\scene1Tigger.cs",
@@ -166,25 +233,23 @@
               "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\scene1Tigger.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAACgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T09:23:16.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T09:23:16.186Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Scene1.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Scene\\Scene1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Scene\\Scene1.cs",
               "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Scene\\Scene1.cs",
               "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Scene\\Scene1.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T06:41:44.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T06:41:44.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Scene0.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Scene\\Scene0.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Scene\\Scene0.cs",
@@ -196,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "SceneBase.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Scene\\SceneBase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Scene\\SceneBase.cs",
@@ -208,13 +273,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "SceneContro.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\SceneContro.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\SceneContro.cs",
               "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\SceneContro.cs",
               "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\SceneContro.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAACEAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T06:34:41.268Z"
             },
@@ -226,14 +291,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\gameRoot.cs",
               "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\gameRoot.cs",
               "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\gameRoot.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAQwPAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAANwAAAAAAAAAAAAAAPkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T06:28:26.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 19,
               "Title": "paperPanel.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\paperPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\paperPanel.cs",
@@ -241,12 +306,11 @@
               "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\paperPanel.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAAcAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T06:18:31.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T06:18:31.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "cubeController.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\cubeController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\cubeController.cs",
@@ -258,31 +322,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "CrosshairController.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\CrosshairController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CrosshairController.cs",
               "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\CrosshairController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CrosshairController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAEgAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T06:10:05.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 8,
               "Title": "startPanel.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\startPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\startPanel.cs",
               "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\startPanel.cs",
               "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\Panel\\startPanel.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAMwE0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAE0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T05:33:29.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "accessMap.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\accessMap.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\accessMap.cs",
@@ -294,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 10,
               "Title": "musicData.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\musicData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\musicData.cs",
@@ -306,19 +370,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "dataMgr.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\dataMgr.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\dataMgr.cs",
               "ToolTip": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\dataMgr.cs",
               "RelativeToolTip": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\data\\dataMgr.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACEAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACEAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T14:27:35.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "FloorController.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\FloorController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FloorController.cs",
@@ -330,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "UIMethod.cs",
               "DocumentMoniker": "C:\\Users\\95216_10b56cq\\Desktop\\resc\\MIHOYOGame\\Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\UIMethod.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ui\u5C0F\u9879\u76EE\\UGUI\\UIMethod.cs",
