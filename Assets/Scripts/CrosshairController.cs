@@ -1,5 +1,8 @@
 // 更新 CrosshairController.cs
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CrosshairController : MonoBehaviour
 {
@@ -11,12 +14,55 @@ public class CrosshairController : MonoBehaviour
     public float interactionDistance = 100f;
     public LayerMask floorLayerMask = -1;
 
-    void Update()
+    public int num;
+    private TextMeshProUGUI tmp;
+    private void Start()
     {
-        CheckForFloorClick();
-        CheckEventClick();
+        if(SceneManager.GetActiveScene().name == Scene1.name)
+        {
+            num = 8;
+        }
+        else if (SceneManager.GetActiveScene().name == Scene2.name)
+        {
+            num = 10;
+        }
+        else if (SceneManager.GetActiveScene().name == Scene3.name)
+        {
+            num = 15;
+        }
+        Debug.Log("哦啦啦啦");
+        gameRoot.Instance.UIManagerRoot.push(new NumPanel());
+        if (gameRoot.Instance.UIManagerRoot.uidic.ContainsKey(NumPanel.uIType.Name))
+        {
+            Debug.Log("yeah磊哥磊哥磊哥");
+             tmp = gameRoot.Instance.UIManagerRoot.uidic[NumPanel.uIType.Name].transform.Find("Text").GetComponent<TextMeshProUGUI>();
+            tmp.text = num.ToString();
+            
+
+
+
+        }
     }
 
+    void Update()
+    {
+        
+        CheckForFloorClick();
+        CheckEventClick();
+        numCheck();
+    }
+
+    void numCheck()
+    {
+        
+        if(Input.GetMouseButtonDown(0) && Cursor.lockState == CursorLockMode.Locked&&gameRoot.Instance.SceneSW==false&&num>0)num--;
+        tmp.text = num.ToString();
+        if (num <= 0 && gameRoot.Instance.UIManagerRoot.uidic.ContainsKey(LosePanel.uIType.Name)==false) 
+        {
+           // gameRoot.Instance.UIManagerRoot.push(new LosePanel());
+        }
+
+    }
     void OnGUI()
     {
         // 只在鼠标锁定时显示准星

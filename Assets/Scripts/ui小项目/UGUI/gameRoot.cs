@@ -19,6 +19,16 @@ public class gameRoot : MonoBehaviour
     
     private static gameRoot instance;
     private bool sceneSwitch= false ;
+    public bool SceneSW
+    {
+        get
+        {
+            return sceneSwitch;
+        }
+       
+    }
+
+
     public static gameRoot Instance
     {
         get { return instance; }
@@ -100,7 +110,7 @@ public class gameRoot : MonoBehaviour
 
         checkWin();
         Esc();
-
+        lose();
 
     }
     private void OnGUI()
@@ -187,9 +197,11 @@ public class gameRoot : MonoBehaviour
                 }
 
             }
-            else if (sc1.win)
+            else if (sc1.win && !sceneSwitch)
             {
-                sceneSwitch=true;
+                GameObject.Instantiate(Resources.Load("prefabs/winFloor"));
+                
+                sceneSwitch =true;/*
                 Debug.Log("you win");
                 Time.timeScale = 0;
                 if (UIManagerRoot.uistack.Peek().uiType.Name != winPanel.name)
@@ -197,7 +209,7 @@ public class gameRoot : MonoBehaviour
                     Debug.Log("ttt");
                     Debug.Log(SceneManager.GetActiveScene().name + " win panel ");
                     UIManagerRoot.push(new winPanel());
-                }
+                }*/
             }
 
         }
@@ -230,9 +242,11 @@ public class gameRoot : MonoBehaviour
 
 
             }
-            else if (sc2.win)
+            else if (sc2.win&&!sceneSwitch)
             {
-                sceneSwitch = true;
+                GameObject.Instantiate(Resources.Load("prefabs/winFloor"));
+                
+                sceneSwitch = true;/*
                 Debug.Log("you win");
                 Time.timeScale = 0;
                 if (UIManagerRoot.uistack.Peek().uiType.Name != winPanel.name)
@@ -241,7 +255,7 @@ public class gameRoot : MonoBehaviour
                     Debug.Log(SceneManager.GetActiveScene().name + " win panel ");
                     UIManagerRoot.push(new winPanel());
                 }
-
+                */
             }
 
         }
@@ -281,9 +295,11 @@ public class gameRoot : MonoBehaviour
                     sc3.win= true;
                 }
             }
-            else if(sc3 != null&&sc3.win)
+            else if(sc3 != null&&sc3.win&&!sceneSwitch)
             {
-                sceneSwitch = true;
+                GameObject.Instantiate(Resources.Load("prefabs/winFloor"));
+                
+                sceneSwitch = true;/*
                 Debug.Log("you win");
                 Time.timeScale = 0;
                 if (UIManagerRoot.uistack.Peek().uiType.Name != winPanel.name)
@@ -291,10 +307,30 @@ public class gameRoot : MonoBehaviour
                     Debug.Log("ttt");
                     Debug.Log(SceneManager.GetActiveScene().name + " win panel ");
                     UIManagerRoot.push(new winPanel());
-                }
+                }*/
             }
             
         }
+    }
+    private void lose()
+    {
+
+        if (SceneManager.GetActiveScene().name == Scene0.name) return;
+
+        if (UIManagerRoot.uidic.ContainsKey(NumPanel.uIType.Name)){
+            TextMeshProUGUI tmp= UIManagerRoot.uidic[NumPanel.uIType.Name] .transform .Find("Text").GetComponent<TextMeshProUGUI>();
+
+
+            if (tmp.text == "0"&&UIManagerRoot.uidic.ContainsKey(LosePanel.uIType.Name)==false) {
+            
+                UIManagerRoot.push(new LosePanel());
+        
+            }
+
+        }
+        
+        
+
     }
     private void Esc()
     {
@@ -306,7 +342,7 @@ public class gameRoot : MonoBehaviour
             {
                 if (UIManagerRoot.uidic.ContainsKey(trueExitPanel.uIType.Name) || UIManagerRoot.uidic.ContainsKey(EscPanel.uIType.Name)
                     || UIManagerRoot.uidic.ContainsKey(settingPanel.uIType.Name) || UIManagerRoot.uidic.ContainsKey(winPanel.uIType.Name)
-                    
+                    || UIManagerRoot.uidic.ContainsKey(LosePanel.uIType.Name)
                     )
                     return;
                 UIManagerRoot.push(new EscPanel());
