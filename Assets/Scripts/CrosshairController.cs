@@ -20,15 +20,15 @@ public class CrosshairController : MonoBehaviour
     {
         if(SceneManager.GetActiveScene().name == Scene1.name)
         {
-            num = 8;
+            num = 10;
         }
         else if (SceneManager.GetActiveScene().name == Scene2.name)
         {
-            num = 10;
+            num = 13;
         }
         else if (SceneManager.GetActiveScene().name == Scene3.name)
         {
-            num = 15;
+            num = 17;
         }
         Debug.Log("킷율율율");
         gameRoot.Instance.UIManagerRoot.push(new NumPanel());
