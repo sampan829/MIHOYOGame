@@ -14,6 +14,7 @@ public class LosePanel : basePanel
 
     public override void OnStart()
     {
+        GameObject.Instantiate(Resources.Load("soundPrefabs/lose"));
         base.OnStart();
         Time.timeScale = 0;
         Button exit= activeobj.transform.Find("exit").GetComponent<Button>();

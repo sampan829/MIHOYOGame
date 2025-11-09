@@ -64,13 +64,14 @@
     <Compile Include="Assets\Scripts\ui小项目\UGUI\Effect\titleMove.cs" />
     <Compile Include="Assets\Scripts\ui小项目\UGUI\Panel\basePanel.cs" />
     <Compile Include="Assets\Scripts\ui小项目\UGUI\Panel\trueExitPanel.cs" />
-    <Compile Include="Assets\Scripts\ui小项目\UGUI\bkMusic.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Scripts\ui小项目\UGUI\scene3Tigger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\Scripts\ui小项目\UGUI\Effect\bkMusic.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\Scripts\ui小项目\UGUI\data\accessMap.cs" />
+    <Compile Include="Assets\Scripts\ui小项目\UGUI\data\soundData.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="Assets\Scripts\ui小项目\UGUI\UIMethod.cs" />
     <Compile Include="Assets\Scripts\wincheck.cs" />
     <Compile Include="Assets\Scripts\ui小项目\UGUI\Panel\MakersPanel.cs" />
+    <Compile Include="Assets\Scripts\ui小项目\UGUI\Effect\soudeff.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />

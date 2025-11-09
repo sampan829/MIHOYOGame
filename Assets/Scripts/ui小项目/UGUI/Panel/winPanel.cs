@@ -35,6 +35,7 @@ public class winPanel : basePanel
 
     public override void OnStart()
     {
+        GameObject.Instantiate(Resources.Load("soundPrefabs/lose"));
         base.OnStart();
         exit=activeobj.transform.Find("exit").GetComponent<Button>() ;
         Debug.Log("wwinwinwiwniwnwninwinw");

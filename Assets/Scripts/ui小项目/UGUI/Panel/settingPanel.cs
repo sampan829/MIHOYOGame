@@ -11,6 +11,9 @@ public class settingPanel : basePanel
     public static readonly UIType uIType = new UIType(name, path);
     private Toggle musicBool;
     private Slider musicSlider;
+
+    private Toggle soundBool;
+    private Slider soundSlider;
     public settingPanel() : base(uIType)
     {
     }
@@ -24,6 +27,7 @@ public class settingPanel : basePanel
         Debug.Log("music val " + musicSlider.value);
         dataMgr.Instance.changeMusic(val);
     }
+
     private void BACK()
     {
 
@@ -53,11 +57,28 @@ public class settingPanel : basePanel
 
         musicBool = UIMethod.Instance.getOrAddComponentInChild<Toggle>(activeobj, "musicbool");
         musicSlider = UIMethod.Instance.getOrAddComponentInChild<Slider>(activeobj, "musicslider");
+
+        soundBool= UIMethod.Instance.getOrAddComponentInChild<Toggle>(activeobj, "soundbool");
+        soundSlider = UIMethod.Instance.getOrAddComponentInChild<Slider>(activeobj, "soundslider");
+
+
         updataData();
         musicBool.onValueChanged.AddListener(CHANGEMUSICBOOL);
         musicSlider.onValueChanged.AddListener(CHANGEMUSICVALUE);
-        
-        
+
+        soundBool.onValueChanged.AddListener((val) =>
+        {
+            dataMgr.Instance.changeBolSound(val);
+
+        });
+        soundSlider.onValueChanged.AddListener((val) =>
+        {
+            Debug.Log("music val " + soundSlider.value);
+            dataMgr.Instance.changeSound(val);
+
+        });
+
+
     }
 
     public override void OnEnable()
@@ -78,11 +99,18 @@ public class settingPanel : basePanel
     }
     private void updataData()
     {
-        musicData data = dataMgr.Instance.musicdata;
+        musicData mdata = dataMgr.Instance.musicdata;
+        soundData sdata=dataMgr.Instance.sounddata;
         if (musicBool != null && musicSlider != null)
         {
-            musicBool.isOn = data.musicOpen;
-            musicSlider.value = data.musicVal;
+            musicBool.isOn = mdata.musicOpen;
+            musicSlider.value = mdata.musicVal;
+            
         } 
+        if(soundBool != null && soundSlider != null)
+        {
+            soundBool.isOn = sdata.soundOpen;
+            soundSlider.value = sdata.soundVal;
+        }
     }
 }

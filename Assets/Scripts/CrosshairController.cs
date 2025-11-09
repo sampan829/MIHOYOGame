@@ -88,6 +88,7 @@ public class CrosshairController : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit, interactionDistance, floorLayerMask))
             {
+                //soundeff();
                 FloorController floor = hit.collider.GetComponent<FloorController>();
                 if (floor != null)
                 {
@@ -107,6 +108,7 @@ public class CrosshairController : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit, interactionDistance, floorLayerMask))
             {
+                soundeff();
                 cubeController cube = hit.collider.GetComponent<cubeController>();
                 if (cube != null)
                 {
@@ -134,6 +136,11 @@ public class CrosshairController : MonoBehaviour
 
             }
         }
+    }
+
+    private void soundeff()
+    {
+        GameObject.Instantiate(Resources.Load("soundPrefabs/touch"));
     }
 
 }

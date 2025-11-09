@@ -10,11 +10,12 @@ public class dataMgr
     public static dataMgr Instance { get { return instance; } }
     public musicData musicdata;
     public accessMap accessmap;
-
+    public soundData sounddata;
     private dataMgr()
     {
         musicdata = playerPrefsDataMgr.Instance.loaddata(typeof(musicData), "Music") as musicData;
         accessmap=playerPrefsDataMgr.Instance.loaddata(typeof(accessMap),"AccessMap") as accessMap;
+        sounddata = playerPrefsDataMgr.Instance.loaddata(typeof(soundData), "Sound") as soundData;
         if (musicdata.notFirst==false)
         {
             musicdata.notFirst = true;
@@ -33,6 +34,15 @@ public class dataMgr
             accessmap.thirdIf = false;
             playerPrefsDataMgr.Instance.savedata(accessmap, "AccessMap");
 
+        }
+        if(sounddata.notFirst == false)
+        {
+            sounddata.notFirst = true;
+
+            sounddata.soundVal = 50;
+            sounddata.soundOpen = true;
+            
+            playerPrefsDataMgr.Instance.savedata(sounddata, "Sound");
         }
         //test
 
@@ -53,6 +63,24 @@ public class dataMgr
         musicdata.musicOpen = newbool;
         bkMusic.Instance.changeIS(newbool);
         playerPrefsDataMgr.Instance.savedata(musicdata, "Music");
+    }
+
+
+    public void changeSound(float val)
+    {
+        Debug.Log("qqqq");
+        sounddata.soundVal = val;
+        //bkMusic.Instance.changeVol(val);
+        soudeff.Instance.changeVol(val);
+        playerPrefsDataMgr.Instance.savedata(sounddata, "Sound");
+    }
+    public void changeBolSound(bool newbool)
+    {
+        Debug.Log("qqqq");
+        sounddata.soundOpen = newbool;
+        //bkMusic.Instance.changeIS(newbool);
+        soudeff.Instance.changeIS(newbool);
+        playerPrefsDataMgr.Instance.savedata(sounddata, "Sound");
     }
 
 
