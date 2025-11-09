@@ -23,6 +23,7 @@ public class scene3Tigger : MonoBehaviour
         
         if (this.tag == "Tent" && del)
         {
+            Debug.Log("oooowowowwowowowoowwwwwwwdasddasdsadsadsadsa");
             this.gameObject.SetActive(false);
         }
         
@@ -54,8 +55,10 @@ public class scene3Tigger : MonoBehaviour
 
                     if (this.transform.name == "TentMain")
                     {
-                        tmp.tent = true;
                         del=true; 
+
+                        tmp.tent = true;
+                        
                     }
                     
 

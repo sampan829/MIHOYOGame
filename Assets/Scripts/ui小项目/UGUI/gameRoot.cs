@@ -290,7 +290,7 @@ public class gameRoot : MonoBehaviour
                         GameObject.Instantiate(Resources.Load("prefabs/Farm"));
                     }
                 }
-                if (sc3.farm && sc3.bridge && sc3.farm)
+                if (sc3.buliding && sc3.bridge && sc3.farm)
                 {
                     sc3.win= true;
                 }
