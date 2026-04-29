@@ -1,6 +1,6 @@
 2025年米哈游首届游戏策划大赛参赛作品
 
-技术栈：UGUI+UI对象池，3C控制
+技术栈：unity，c#，UGUI+UI对象池，3C控制
 
 <img width="2551" height="1038" alt="image" src="https://github.com/user-attachments/assets/6c9bfbf2-7cfb-4719-b5cd-7c1422bea35d" />
 
